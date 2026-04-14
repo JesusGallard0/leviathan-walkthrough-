@@ -1,33 +1,40 @@
 ## OverTheWire Leviathan Writeups
 
-#This repository documents my progression through the OverTheWire Leviathan wargame,focusing on linux-based privilege escalation,binary analysis, and common security misconfigurations
+#This repository documents my progression through the OverTheWire Leviathan wargame, focusing on linux-based privilege escalation, binary analysis, and common security misconfigurations
 
 
 ### Overwiew
-Leviathan is a wargame designed to teach fundamental exploitation techniques in Unix-like environments
-It emphasizes practical attack vectors such as insecure file handling,weak authentication mechanisms,and improper binary protections
+Leviathan is a wargame focused on practical exploitation in unix-like environments
+It introduces core offensive security concepts such as:
 
+-Privilege escalation via misconfigures SUID binaries
+
+-Information disclosure through insecure implementations
+
+-Weak input handling and command injection
+
+-Improper storage and handling of sensitive data
 
 ### Skill demonstrated
 -Linux enumeration and filesystem analysis
 
 -identification and exploitation of SUID binaries
 
--Static and dinamic binary analysis
+-Static and dinamic binary analysis('strings', 'ltrace')
 
--Detection of plaintext credential exposure
+-Detection of insecure credential handling (plaintext exposure)
 
--Use of command-line tools for information extraction
+-Command injection and input validation bypass techniques
 
--Understanding of runtime behavior vs static structure
+-Understanding of runtime behavior vs static binary structure
 
 
 
 ### Tools & commands used 
     ls, cd ,cat, nano(filesystem navigation and inspection)
     grep(keyword-based data extraction)
-    file(file identification)
-    strings(static string extraction)
+    file(file type identification)
+    strings(static string extraction )
     ltrace(dynamic tracing of library calls)
     ssh(remote authentication)
 
@@ -67,8 +74,10 @@ The techniques practiced in Leviathan directly map to real-world scenarios:
 
 -Insecure binary design-information disclosure
 
+-Improper input handling-Command injection
+
 ### Status
 
--Levels completed 0-2
+-Levels completed 0-5
 
 -Currently progressing through the wargame
