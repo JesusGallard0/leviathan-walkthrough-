@@ -13,9 +13,9 @@ It introduces core offensive security concepts such as:
 
 -Weak input handling and command injection
 
--Improper storage and handling of sensitive data
+-Unsafe storage and handling of sensitive data
 
-### Skill demonstrated
+### Skill Demonstrated
 -Linux enumeration and filesystem analysis
 
 -identification and exploitation of SUID binaries
@@ -56,13 +56,12 @@ It introduces core offensive security concepts such as:
 
 ### Learning Focus
 
-Understanding how real-world vulnerabilities emerge from simple mistakes
+Understanding how real-world vulnerabilities arise from simple mistakes
 
 Developing a methodology:
-    enumeration-analysis-hypothesis-exploitation
+    Enumeration-Analysis-Hypothesis-Exploitation
 
-Building intuition for where sensitive data is likely to be exposed
-
+Building intuition for identifying high-value targets
 
 
 ### Relevance to Cybersecurity
@@ -70,7 +69,7 @@ The techniques practiced in Leviathan directly map to real-world scenarios:
 
 -Misconfigured permissions-privilege escalation
 
--Hardcoded or exposed credentials-unauthorized access
+-Exposed credentials - unauthorized access
 
 -Insecure binary design-information disclosure
 
@@ -78,6 +77,6 @@ The techniques practiced in Leviathan directly map to real-world scenarios:
 
 ### Status
 
--Levels completed 0-5
+-Completed all levels (0-7)
 
--Currently progressing through the wargame
+
